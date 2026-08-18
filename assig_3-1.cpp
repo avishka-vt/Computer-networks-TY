@@ -29,7 +29,7 @@ int main()
     {
         class_type='C';
     }
-    else if(first_octet>=192&&first_octet<=223)
+    else if(first_octet>=224&&first_octet<=239)
     {
         class_type='D';
     }
